@@ -5,11 +5,11 @@ public class NTTDataJSP {
 	/**
 	 * Constructor privado
 	 */
-	
+
 	private NTTDataJSP() {
-		
+
 	}
-	
+
 	/**
 	 * Saludo mediante JSP
 	 * 

@@ -20,7 +20,6 @@ public class NTTDataServlet extends HttpServlet {
 	 * Default constructor.
 	 */
 	public NTTDataServlet() {
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -29,7 +28,6 @@ public class NTTDataServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		response.getWriter().append("NTTDATA | GET | PRIMER SERVLET OK");
 	}
 
@@ -39,7 +37,6 @@ public class NTTDataServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
