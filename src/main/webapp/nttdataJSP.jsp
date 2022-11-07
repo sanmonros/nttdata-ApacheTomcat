@@ -11,9 +11,11 @@
 	<p>Bienvenidos a la FP-DUAL</p>
 
 	<%
-	for (int i = 0; i < 10; i++) {
+	for (int i = 10; i >= 0; i--) {
 		out.println("A la de ..." + i);
+
 	}
+	out.println("Boom!!");
 	%>
 
 	<p><%=NTTDataJSP.nttDataHello("Santiago")%></p>

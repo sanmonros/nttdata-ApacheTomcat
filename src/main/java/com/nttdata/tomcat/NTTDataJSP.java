@@ -14,7 +14,7 @@ public class NTTDataJSP {
 	 * Saludo mediante JSP
 	 * 
 	 * @param saludo
-	 * @return
+	 * @return saludo
 	 */
 	public static String nttDataHello(String saludo) {
 		return "Bienvenido al proyecto FP dual " + saludo;
